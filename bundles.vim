@@ -44,10 +44,6 @@ Plug 'vim-scripts/YankRing.vim'
 " autocomplete
 Plug 'Shougo/deoplete.nvim'
 
-" Snippets
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
-
 " Rails support
 Plug 'tpope/vim-rails'
 
