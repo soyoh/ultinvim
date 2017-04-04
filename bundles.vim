@@ -11,7 +11,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'jistr/vim-nerdtree-tabs'
 
 " CtrlP
-Plug 'ctrlpvim/ctrlp.vim'
+" Plug 'ctrlpvim/ctrlp.vim'
 
 " Nerdcommenter
 Plug 'scrooloose/nerdcommenter'

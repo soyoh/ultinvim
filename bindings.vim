@@ -41,8 +41,8 @@ let g:yankring_replace_n_nkey = '<leader>]'
 nmap <leader>y :YRShow<cr>
 
 " ctrlp
-let g:ctrlp_map = '<leader>,'
-let g:ctrlp_cmd = 'CtrlP'
+" let g:ctrlp_map = '<leader>,'
+" let g:ctrlp_cmd = 'CtrlP'
 
 " fugitive
 nmap <leader>g :silent Ggrep<space>
@@ -52,4 +52,4 @@ nmap <leader>D :Gdiff<space>
 nmap <F8> :TagbarToggle<CR>
 
 " eunuch
-nmap <C-m> :Move 
+nmap <C-m> :Move

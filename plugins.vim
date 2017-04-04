@@ -4,12 +4,12 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " CtrlP Configuration
-let g:ctrlp_clear_cache_on_exit = 1
-let g:ctrlp_max_height = 40
-let g:ctrlp_switch_buffer = 1
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files --exclude-standard -cod | grep -viE "\.(png|gif|jpg|gz|woff|eot|tiff|ttf|otf)$"']
-let g:ctrlp_extensions = ['tag', 'buffertag', 'quickfix', 'mixed', 'line']
-let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|svn))$'
+" let g:ctrlp_clear_cache_on_exit = 1
+" let g:ctrlp_max_height = 40
+" let g:ctrlp_switch_buffer = 1
+" let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files --exclude-standard -cod | grep -viE "\.(png|gif|jpg|gz|woff|eot|tiff|ttf|otf)$"']
+" let g:ctrlp_extensions = ['tag', 'buffertag', 'quickfix', 'mixed', 'line']
+" let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|svn))$'
 
 " Airline configuration
 let g:airline#extensions#tabline#enabled = 1
